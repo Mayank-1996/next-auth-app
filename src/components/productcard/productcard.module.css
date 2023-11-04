@@ -1,0 +1,14 @@
+.container {
+  border: 1px solid gray;
+  padding: 8px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 200px;
+}
+.title,
+.description,
+.price {
+}

@@ -1,0 +1,41 @@
+.products {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 70px;
+}
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.category {
+  padding: 4px 8px;
+  border-radius: 30px;
+  background-color: aqua;
+  color: blue;
+  margin: 2px;
+  cursor: pointer;
+}
+.selected {
+  background-color: blue;
+  color: white;
+  border: 0.5px solid white;
+  padding: 4px 8px;
+  border-radius: 30px;
+  margin: 2px;
+  cursor: pointer;
+}
+.category:hover {
+  border-width: 2px;
+  border-color: blue;
+}
